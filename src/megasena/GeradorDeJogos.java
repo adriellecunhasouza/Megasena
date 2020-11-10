@@ -24,14 +24,14 @@ public class GeradorDeJogos extends HttpServlet {
 		out.print("<h1>GERADOR DE JOGOS DA MEGASENA</h1>");
 			
 		for (int i = 0; i < quant; i++) {
-			out.print("<h2><b>Jogo Nº " + (i+1) + "</b>: <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;");
+			out.print("<h2><b>Jogo Nº " + (i+1) + "</b>: <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h2>");
 			//out.print("<p>");
 			for (int j = 0; j < 6; j++) {
 				vetor[i] = gerador.nextInt(100);
-				out.print(vetor[i]);
-				out.print("&nbsp;&nbsp;&nbsp;");
+				out.print("<p>" + vetor[i] + "&nbsp;&nbsp;&nbsp;</p>");
+			//	out.print("&nbsp;&nbsp;&nbsp;");
 				}
-			out.print("</p></h2>");
+	//		out.print("</p></h2>");
 		}
 			
 	}

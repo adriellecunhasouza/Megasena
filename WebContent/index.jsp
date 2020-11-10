@@ -11,7 +11,7 @@
 
 <form method = "post"  action = "gerador-de-jogos">
         Quantidades de Jogos:
-        <input type="number" name="quant" min="1" max="15"/> 
+        <input type="number" name="quant" min="1" max="100"/> 
         
         <input type = "submit" value = "Enviar"/>
     </form>
