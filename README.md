@@ -1,6 +1,6 @@
 # Megasena
 
-Este Projeto é referente  as questão <b>5.</b><br>
+Este Projeto é referente  a questão <b>5.</b><br>
 
 
 Este projeto está configurado para JSF seguindo a estrutura de projeto Maven. O projeto também está configurado para publicação no Heroku, considerando o arquivo Procfile e o plug-in no arquivo "pom.xml".
