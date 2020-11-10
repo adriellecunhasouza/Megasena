@@ -31,7 +31,7 @@ public class GeradorDeJogos extends HttpServlet {
 				out.print(vetor[i]);
 				out.print("&nbsp;&nbsp;&nbsp;");
 				}
-			out.print("</p>/h2>");
+			out.print("</p></h2>");
 		}
 			
 	}
